@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    background-color: #341f4887;
+    padding: 34px;
+    margin-top: 20px;
+    margin: auto;
+}
+.container h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: palevioletred;
+    font-size: 30px;
+}
+ p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: palevioletred;
+    font-size: 15px;
+}
+
+label,input,select{
+    display: block;
+    width: 80%;
+    margin: 11px auto;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    background-color: beige;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.submitmsg{
+    font-size: 20px;
+    color: rgb(0, 217, 255);
+    font-weight: bold;
+}
+
+.bttns{
+    margin: auto 33%;
+}
